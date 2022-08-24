@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles">
+    <title>Image1</title>
+</head>
+
+<body>
+    <div class="title">
+        <h1>This is a heading</h1>
+        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quos vitae nihil omnis, animi quod aliquam unde mollitia? Magni recusandae pariatur inventore quasi cum delectus non aliquid deleniti aliquam doloremque?</h3>
+        <img src="/images/image1" rel="image1" style="height: 600px; width: auto;">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, in <em>quisquam suscipit tenetur doloribus</em> illum mollitia magnam quibusdam? Laudantium aperiam dignissimos et id, magnam ratione perspiciatis repudiandae asperiores tempora doloribus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ipsa quae iure veniam molestiae, ad laborum! Voluptatem distinctio quas tenetur ex sint delectus quos nulla ipsam fugiat, non necessitatibus exercitationem?<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, dolorum. Veritatis expedita incidunt eum laborum ea est molestias. Debitis fugiat adipisci omnis minus, natus quos animi dolor illo sunt eligendi!</p>
+    </div>
+</body>
+
+</html>
