@@ -25,11 +25,12 @@ h1 {
 
 .images img {
     padding: 100px 30px;
+    transition: 0.3s;
 }
 
 .images img:hover {
     transform: scale(1.1);
-    transition: 0.5s;
+    
 }
 
 
@@ -43,7 +44,7 @@ h1 {
     width: auto;
 }
 
-.maincontainer {
+.container2 {
     justify-content: center;
     display: flex;
 }
@@ -55,23 +56,22 @@ h1 {
 }
 
 
-
-.imagecontainer h3 {
-    padding: 30px 0 ;
+.imagecontainer h1, h3 {
+    padding: 10px 10px 30px 10px ;
 }
 
 .imagemain {
     display:flex;
 }
 
-.imagemain h3 {
-    font-family: 'Jost', sans-serif;
-    font-size: 28px;
-    font-weight: 300;
+.imagecontainer h3 {
+    font-family: 'Jost', serif;
+    font-size: 24px;
+    font-weight: 400;
 }
 
-.imagemain p {
+.imagecontainer  p {
     font-family: 'Jost', sans-serif;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 300;
 }
