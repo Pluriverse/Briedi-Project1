@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Jost:wght@300;400&display=swap');
 
 * {
     margin:0;
@@ -8,6 +8,10 @@
 h1 {
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     font-size: 60px;
+   
+}
+
+.header h1 {
     padding: 20px 50px;
     margin: 20px;
 }
@@ -15,7 +19,6 @@ h1 {
 .images {   
     display: flex;
     margin: 30px 50px;
-    border: 1px solid red;
     align-items: center;
     background-color: none;
 }
@@ -29,8 +32,46 @@ h1 {
     transition: 0.5s;
 }
 
+
+
+/* --------------------  Image page  -------------------- */
+
+
 .image1 {
     background-image: images/image1;
     height: 600px;
     width: auto;
+}
+
+.maincontainer {
+    justify-content: center;
+    display: flex;
+}
+
+.imagecontainer {
+    width: 800px;
+    border: 1px solid black;
+    justify-content: right;
+}
+
+
+
+.imagecontainer h3 {
+    padding: 30px 0 ;
+}
+
+.imagemain {
+    display:flex;
+}
+
+.imagemain h3 {
+    font-family: 'Jost', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.imagemain p {
+    font-family: 'Jost', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
 }
